@@ -1,5 +1,6 @@
 # 블로그
 https://newstroyblog.tistory.com/manage/newpost/?type=post&returnURL=%2Fmanage%2Fposts%2F#
+ai 대화시스템을 만들기위하여 제작해보았습니다. 아직 많이 부족한 부분이 있을수 있으니 양해부탁드립니다.
 
 # AI_Friend 셋팅 - 필수
 Python 3.11.3 환경에서 테스트 완료
@@ -46,5 +47,9 @@ voicevox의 원하는 캐릭터 이름을 CTRL + F로 검색후 id에 해당하�
 main.py의 83번줄 # VOICEVOX Character number 주석 옆에 speaker 피라미터로 복사한 number값 입력
 
 
-
-
+# 참고자료
+https://github.com/kramcat/CharacterAI/tree/main
+https://github.com/voicevox-client/python
+https://snuow.com/blog/%E3%80%90python%E3%80%91voicevox%E3%82%92python%E3%81%8B%E3%82%89%E4%BD%BF%E7%94%A8%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/
+https://developers.naver.com/docs/papago/papago-nmt-example-code.md#python
+https://github.com/JarodMica/ChatGPT-and-Whiper-with-TTS
