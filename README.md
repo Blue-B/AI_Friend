@@ -22,4 +22,17 @@ charcter_key = PyAsyncCAI('') >> character.ai 로그인후 개발자도구의 Ne
 
 
 # 보이스 샘플
+기본값 보이스는 영상속에 설정된 'ナースロボ＿タイプＴ'(47) 캐릭터 샘플로 지정되어 있음 
+
+https://voicevox.su-shiki.com/su-shikiapis/#step3
+사이트 이동후 'こちら' 클릭하여 apikey 발급
+발급받은 key를 STEP 2에 입력후 버튼 클릭
+'利用可能なキャラクターIDを取得' 하단 생성된 주소 이동 or 버튼 클릭 
+'{"permitted_synthesis_morphing":"ALL"},"name":"小夜/SAYO","speaker_uuid":"a8cc6d22-aad0-4ab8-bf1e-2f843924164a","styles":[{"name":"ノーマル","id":46}]'
+voicevox의 원하는 캐릭터 이름을 CTRL + F로 검색후 id에 해당하는 number를 복사
+
+main.py의 83번줄 # VOICEVOX Character number 주석 옆에 speaker 피라미터로 복사한 number값을 붙여넣으면됨
+
+
+
 
