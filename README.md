@@ -1,6 +1,7 @@
 # 블로그
 https://newstroyblog.tistory.com/manage/newpost/?type=post&returnURL=%2Fmanage%2Fposts%2F#
-ai 대화시스템을 만들기위하여 제작해보았습니다. 아직 많이 부족한 부분이 있을수 있으니 양해부탁드립니다.
+
+ai시스템에 영감을 받아 처음 제작해보았습니다. 아직 많이 부족한 부분이 있을수 있으니 양해부탁드립니다.
 
 # AI_Friend 셋팅 - 필수
 Python 3.11.3 환경에서 테스트 완료
