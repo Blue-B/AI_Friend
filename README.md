@@ -1,3 +1,6 @@
+# 블로그
+https://newstroyblog.tistory.com/manage/newpost/?type=post&returnURL=%2Fmanage%2Fposts%2F#
+
 # AI_Friend - 필수
 Python 3.11.3 환경 테스트 완료
 
