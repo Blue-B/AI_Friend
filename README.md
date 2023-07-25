@@ -6,7 +6,7 @@ Python 3.11.3 환경에서 테스트 완료
 
 파이썬 설치 필수
 
-1.Command.txt파일의 명령어를 복사하여 터미널에 실행해주세요.
+1.Command.txt파일의 명령어를 복사하여 터미널에서 설치해주세요.
 
 2.https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.14.5 링크로 이동하여 해당하는 플랫폼의 엔진 본체를 다운받아주세요(ex Windows（GPU/CUDA版）)
 
