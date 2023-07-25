@@ -1,8 +1,10 @@
 # 블로그
 https://newstroyblog.tistory.com/manage/newpost/?type=post&returnURL=%2Fmanage%2Fposts%2F#
 
-# AI_Friend - 필수
+# AI_Friend 셋팅 - 필수
 Python 3.11.3 환경에서 테스트 완료
+
+파이썬 설치 필수
 
 1.Command.txt파일의 명령어를 복사하여 터미널에 실행해주세요.
 
@@ -13,6 +15,12 @@ Python 3.11.3 환경에서 테스트 완료
 4.pip install -r requirements 명령으로 필요한 패키지를 전부 설치해주세요.
 
 5.main.py의 ####Key### 주석부분의 api key를 입력해주세요.
+
+
+# 사용법
+1.start.bat 파일 실행시 파이썬 파일과 voicevox_engine파일이 함께 실행되며 ai가 작동합니다.
+2.Enter CHAR: 값은 charcter.ai의 원하는 ai대화방에 들어가서 주소 상단 'https://beta.character.ai/chat?char=' 뒤에있는 문자열을 붙여넣으면 됩니다.
+3.마이크로 말을하면 입력받은 내용이 표시된후 ai에게 전달하여 ai에게 응답받을 수 있습니다.
 
 
 # API Keys - 필수
