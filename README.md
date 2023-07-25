@@ -1,4 +1,4 @@
-# AI_Friend
+# AI_Friend - 필수
 Python 3.11.3 환경 테스트 완료
 
 1.Command.txt파일의 명령어를 복사하여 터미널에 실행해주세요.
@@ -11,7 +11,7 @@ Python 3.11.3 환경 테스트 완료
 5.main.py의 ####Key### 주석부분의 api key를 입력해주세요.
 
 
-# API Keys
+# API Keys - 필수
 client_id,client_secret >> https://developers.naver.com/apps/#/register?api=ppg_n2mt 파파고 api 신청후 발급받은 key를 입력
 
 OpenAi key
@@ -21,7 +21,7 @@ character.ai key
 charcter_key = PyAsyncCAI('') >> character.ai 로그인후 개발자도구의 Network탭에서 '/dj-rest-auth/auth0/' 검색후 key값을 복사하여 입력
 
 
-# 보이스 샘플
+# 보이스 샘플 변경
 기본값 보이스는 영상속에 설정된 'ナースロボ＿タイプＴ'(47) 캐릭터 샘플로 지정되어 있음 
 
 https://voicevox.su-shiki.com/su-shikiapis/#step3
