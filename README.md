@@ -21,7 +21,9 @@ Python 3.11.3 환경에서 테스트 완료
 
 # 사용법
 1.start.bat 파일 실행시 파이썬 파일과 voicevox_engine파일이 함께 실행되며 ai가 작동합니다.
+
 2.Enter CHAR: 값은 charcter.ai의 원하는 ai대화방에 들어가서 주소 상단 'https://beta.character.ai/chat?char=' 뒤에있는 문자열을 붙여넣으면 됩니다.
+
 3.마이크로 말을하면 입력받은 내용이 표시된후 ai에게 전달하여 ai에게 응답받을 수 있습니다.
 
 
@@ -40,9 +42,13 @@ charcter_key = PyAsyncCAI('') >> character.ai 로그인후 개발자도구의 Ne
 
 https://voicevox.su-shiki.com/su-shikiapis/#step3
 사이트 이동후 'こちら' 클릭하여 apikey 발급
+
 발급받은 key를 STEP 2에 입력후 버튼 클릭
+
 '利用可能なキャラクターIDを取得' 하단 생성된 주소 이동 or 버튼 클릭 
+
 '{"permitted_synthesis_morphing":"ALL"},"name":"小夜/SAYO","speaker_uuid":"a8cc6d22-aad0-4ab8-bf1e-2f843924164a","styles":[{"name":"ノーマル","id":46}]'
+
 voicevox의 원하는 캐릭터 이름을 CTRL + F로 검색후 id에 해당하는 number를 복사
 
 main.py의 83번줄 # VOICEVOX Character number 주석 옆에 speaker 피라미터로 복사한 number값 입력
