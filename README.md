@@ -53,6 +53,9 @@ voicevox의 원하는 캐릭터 이름을 CTRL + F로 검색후 id에 해당하�
 
 main.py의 83번줄 # VOICEVOX Character number 주석 옆에 speaker 피라미터로 복사한 number값 입력
 
+# 업데이트 내역
+7-30 CharcterAI 비동기코드에서 동기코드로 변경후 응답속도를 높힘
+
 
 # 참고자료
 https://github.com/kramcat/CharacterAI/tree/main
