@@ -1,6 +1,6 @@
 import asyncio
 #charcterai
-from characterai import PyAsyncCAI
+from characterai import PyCAI
 #ai voice
 from voicevox import Client
 #voice play
@@ -20,15 +20,15 @@ import urllib.request
 ###########################################
 ################## KEY ####################
 #naver key
-client_id = "" # 개발자센터에서 발급받은 Client ID 값
-client_secret = "" # 개발자센터에서 발급받은 Client Secret 값
+client_id = "dc36ycCZaN4oE4cq5B3N" # 개발자센터에서 발급받은 Client ID 값
+client_secret = "SrY4x0ZqF2" # 개발자센터에서 발급받은 Client Secret 값
 
 #OpenAi key
-key = ''
+key = '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'
 openai.api_key = key
 
 #character.ai key
-charcter_key = PyAsyncCAI('')
+charcter_key = PyCAI('89fe91cc8d6dee61fdc156cf1e8c663762eeb8c3')
 ###########################################
 ###########################################
 
@@ -122,12 +122,12 @@ class Voicevox:
             p.terminate()
 
 #main
-async def main():
+def main():
     client = charcter_key #Charcter api
-    await client.start()
+
 
     char = input('Enter CHAR: ')
-    chat = await client.chat.get_chat(char)
+    chat = client.chat.get_chat(char)
 
     history_id = chat['external_id']
     participants = chat['participants']
@@ -156,7 +156,7 @@ async def main():
         #ai Response Translation
         message = papago(user_input,True)
 
-        data = await client.chat.send_message(
+        data = client.chat.send_message(
             char, message, history_external_id=history_id, tgt=tgt
         )
 
@@ -172,4 +172,4 @@ async def main():
         #voice play
         vv.speak(text=text)
 
-asyncio.run(main())
+main()
