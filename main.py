@@ -4,7 +4,6 @@ from characterai import PyAsyncCAI
 #ai voice
 from voicevox import Client
 #voice play
-from playsound import playsound
 import requests, json
 import io
 import wave
