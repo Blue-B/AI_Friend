@@ -1,5 +1,5 @@
 # 블로그
-https://newstroyblog.tistory.com/manage/newpost/?type=post&returnURL=%2Fmanage%2Fposts%2F#
+https://newstroyblog.tistory.com/398
 
 나만의 AI시스템 환경을 구축하여 대화를 할수있도록 제작해봤습니다. 아직 많이 부족한 부분이 있을수 있으니 양해부탁드립니다.
 
